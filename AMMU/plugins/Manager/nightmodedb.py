@@ -5,7 +5,7 @@ from motor.motor_asyncio import AsyncIOMotorClient
 MONGO_URL = "mongodb+srv://rajkhilchi786:lt10XABVqfQqOT1f@cluster0.bug4pqt.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
 
 client = AsyncIOMotorClient(MONGO_URL)
-db = client["ANNIEMUSIC"]  # Database name
+db = client["AMMU"]  # Database name
 nightdb = db["nightmode"]   # Collection name
 
 # Enable nightmode for a chat

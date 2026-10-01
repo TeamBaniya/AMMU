@@ -2,14 +2,14 @@ from pyrogram import filters
 from pyrogram.types import InlineKeyboardMarkup, Message
 
 import config
-from ANNIEMUSIC import YouTube, app
-from ANNIEMUSIC.core.call import RAJ
-from ANNIEMUSIC.misc import db
-from ANNIEMUSIC.utils.database import get_loop
-from ANNIEMUSIC.utils.decorators import AdminRightsCheck
-from ANNIEMUSIC.utils.inline import close_markup, stream_markup
-from ANNIEMUSIC.utils.stream.autoclear import auto_clean
-from ANNIEMUSIC.utils.thumbnails import get_thumb
+from AMMU import YouTube, app
+from AMMU.core.call import RAJ
+from AMMU.misc import db
+from AMMU.utils.database import get_loop
+from AMMU.utils.decorators import AdminRightsCheck
+from AMMU.utils.inline import close_markup, stream_markup
+from AMMU.utils.stream.autoclear import auto_clean
+from AMMU.utils.thumbnails import get_thumb
 from config import BANNED_USERS
 
 

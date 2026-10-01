@@ -4,9 +4,9 @@ import re
 import time
 import aiohttp
 
-from ANNIEMUSIC import app
-from ANNIEMUSIC.core.mongo import mongodb
-from ANNIEMUSIC.misc import db
+from AMMU import app
+from AMMU.core.mongo import mongodb
+from AMMU.misc import db
 from py_yt import VideosSearch
 
 autoplay_db = mongodb.autoplay
@@ -211,9 +211,9 @@ BAD_WORDS = [
 
 
 async def auto_play_next(client, chat_id, last_title="", last_vidid="", forceplay=False):
-    from ANNIEMUSIC.utils.database import get_lang
-    from ANNIEMUSIC.utils.stream.stream import stream
-    from ANNIEMUSIC.core.call import RAJ
+    from AMMU.utils.database import get_lang
+    from AMMU.utils.stream.stream import stream
+    from AMMU.core.call import RAJ
     from strings import get_string
 
     if AUTO_PLAYING.get(chat_id):

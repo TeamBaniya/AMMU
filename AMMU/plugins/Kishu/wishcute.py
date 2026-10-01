@@ -2,7 +2,7 @@ from pyrogram import Client, filters, enums
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 import random
 import requests
-from ANNIEMUSIC import app
+from AMMU import app
 
 SUPPORT_CHAT = "CERTIFIEDCODERS"
 SUPPORT_BTN = InlineKeyboardMarkup(

@@ -8,12 +8,12 @@ from pyrogram import errors, filters
 from pyrogram.enums import ChatType
 from pyrogram.types import Message
 
-from ANNIEMUSIC import app
-from ANNIEMUSIC.core.dir import COUPLE_DIR
-from ANNIEMUSIC.mongo.couples_db import get_couple, save_couple
+from AMMU import app
+from AMMU.core.dir import COUPLE_DIR
+from AMMU.mongo.couples_db import get_couple, save_couple
 
 
-ASSETS = Path("ANNIEMUSIC/assets")
+ASSETS = Path("AMMU/assets")
 FALLBACK = ASSETS / "upic.png"
 OUT_DIR = Path(COUPLE_DIR)
 

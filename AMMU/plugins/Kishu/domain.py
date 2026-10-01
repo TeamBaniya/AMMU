@@ -4,7 +4,7 @@ import socket
 import requests
 import whois
 
-from ANNIEMUSIC import app
+from AMMU import app
 
 def get_domain_info(domain_name):
     try:

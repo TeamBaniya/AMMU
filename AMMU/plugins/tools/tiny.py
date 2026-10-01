@@ -2,7 +2,7 @@ import os
 import cv2
 from PIL import Image
 from pyrogram import Client, filters
-from ANNIEMUSIC import app
+from AMMU import app
 
 
 @app.on_message(filters.command("tiny"))
@@ -19,7 +19,7 @@ async def tiny_sticker(client, message):
     except Exception as e:
         await kontol.edit_text(f"❌ Failed to download sticker.\nError: {e}")
         return
-    im1 = Image.open("ANNIEMUSIC/assets/tiny.png")
+    im1 = Image.open("AMMU/assets/tiny.png")
     if ik.endswith(".tgs"):
         try:
             await app.download_media(reply, "wel2.tgs")

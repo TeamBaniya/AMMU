@@ -1,9 +1,9 @@
 from pyrogram import filters
 
-from ANNIEMUSIC import app
-from ANNIEMUSIC.misc import SUDOERS
-from ANNIEMUSIC.utils.database import add_off, add_on
-from ANNIEMUSIC.utils.decorators.language import language
+from AMMU import app
+from AMMU.misc import SUDOERS
+from AMMU.utils.database import add_off, add_on
+from AMMU.utils.decorators.language import language
 
 
 @app.on_message(filters.command(["logger"]) & SUDOERS)

@@ -9,10 +9,10 @@ from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, Message
 from py_yt import VideosSearch
 
 import config
-from ANNIEMUSIC import app
-from ANNIEMUSIC.misc import _boot_
-from ANNIEMUSIC.plugins.sudo.sudoers import sudoers_list
-from ANNIEMUSIC.utils.database import (
+from AMMU import app
+from AMMU.misc import _boot_
+from AMMU.plugins.sudo.sudoers import sudoers_list
+from AMMU.utils.database import (
     add_served_chat,
     add_served_user,
     blacklisted_chats,
@@ -20,10 +20,10 @@ from ANNIEMUSIC.utils.database import (
     is_banned_user,
     is_on_off,
 )
-from ANNIEMUSIC.utils.decorators.language import LanguageStart
-from ANNIEMUSIC.utils.formatters import get_readable_time
-from ANNIEMUSIC.utils.inline.help import first_page
-from ANNIEMUSIC.utils.inline.start import private_panel, start_panel
+from AMMU.utils.decorators.language import LanguageStart
+from AMMU.utils.formatters import get_readable_time
+from AMMU.utils.inline.help import first_page
+from AMMU.utils.inline.start import private_panel, start_panel
 from config import BANNED_USERS
 from strings import get_string
 

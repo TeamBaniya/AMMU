@@ -17,10 +17,10 @@ from config import (
     votemode,
 )
 from strings import get_string
-from ANNIEMUSIC import YouTube, app
-from ANNIEMUSIC.core.call import RAJ
-from ANNIEMUSIC.misc import SUDOERS, db
-from ANNIEMUSIC.utils.database import (
+from AMMU import YouTube, app
+from AMMU.core.call import RAJ
+from AMMU.misc import SUDOERS, db
+from AMMU.utils.database import (
     get_active_chats,
     get_assistant,
     get_lang,
@@ -35,13 +35,13 @@ from ANNIEMUSIC.utils.database import (
     mute_on,
     set_loop,
 )
-from ANNIEMUSIC.utils.decorators import ActualAdminCB, languageCB
-from ANNIEMUSIC.utils.formatters import seconds_to_min
-from ANNIEMUSIC.utils.inline import close_markup, stream_markup, stream_markup_timer
-from ANNIEMUSIC.utils.inline.play import stream_markup_colored, stream_markup_timer_colored
-from ANNIEMUSIC.utils.colour import send_photo_colored, edit_reply_markup_colored
-from ANNIEMUSIC.utils.stream.autoclear import auto_clean
-from ANNIEMUSIC.utils.thumbnails import get_thumb
+from AMMU.utils.decorators import ActualAdminCB, languageCB
+from AMMU.utils.formatters import seconds_to_min
+from AMMU.utils.inline import close_markup, stream_markup, stream_markup_timer
+from AMMU.utils.inline.play import stream_markup_colored, stream_markup_timer_colored
+from AMMU.utils.colour import send_photo_colored, edit_reply_markup_colored
+from AMMU.utils.stream.autoclear import auto_clean
+from AMMU.utils.thumbnails import get_thumb
 
 
 checker = {}

@@ -1,4 +1,4 @@
-# ANNIEMUSIC/plugins/tools/gpt.py
+# AMMU/plugins/tools/gpt.py
 
 import asyncio
 import os
@@ -7,7 +7,7 @@ from gtts import gTTS
 from pyrogram import Client, filters
 from pyrogram.types import Message
 from pyrogram.enums import ChatAction
-from ANNIEMUSIC import app
+from AMMU import app
 from dotenv import load_dotenv
 
 # -----------------------------

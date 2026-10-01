@@ -1,7 +1,7 @@
-from ANNIEMUSIC import app
+from AMMU import app
 from config import SUPPORT_CHAT
-from ANNIEMUSIC.misc import SUDOERS
-from ANNIEMUSIC.utils.database import get_lang, is_maintenance
+from AMMU.misc import SUDOERS
+from AMMU.utils.database import get_lang, is_maintenance
 from strings import get_string
 
 

@@ -5,17 +5,17 @@ from typing import Union
 from pyrogram.types import InlineKeyboardMarkup
 
 import config
-from ANNIEMUSIC import Carbon, YouTube, app
-from ANNIEMUSIC.core.call import RAJ
-from ANNIEMUSIC.misc import db
-from ANNIEMUSIC.utils.database import add_active_video_chat, is_active_chat
-from ANNIEMUSIC.utils.exceptions import AssistantErr
-from ANNIEMUSIC.utils.inline import aq_markup, close_markup, stream_markup
-from ANNIEMUSIC.utils.pastebin import ANNIEBIN
-from ANNIEMUSIC.utils.stream.queue import put_queue, put_queue_index
-from ANNIEMUSIC.utils.thumbnails import get_thumb
-from ANNIEMUSIC.plugins.tools.thumb import get_thumb_status
-from ANNIEMUSIC.utils.errors import capture_internal_err
+from AMMU import Carbon, YouTube, app
+from AMMU.core.call import RAJ
+from AMMU.misc import db
+from AMMU.utils.database import add_active_video_chat, is_active_chat
+from AMMU.utils.exceptions import AssistantErr
+from AMMU.utils.inline import aq_markup, close_markup, stream_markup
+from AMMU.utils.pastebin import ANNIEBIN
+from AMMU.utils.stream.queue import put_queue, put_queue_index
+from AMMU.utils.thumbnails import get_thumb
+from AMMU.plugins.tools.thumb import get_thumb_status
+from AMMU.utils.errors import capture_internal_err
 
 
 @capture_internal_err
@@ -39,7 +39,7 @@ async def stream(
     # 🔥 Save user's play for autoplay (only manual plays, NOT autoplay)
     if not is_autoplay:
         try:
-            from ANNIEMUSIC.utils.autoplay import set_user_play
+            from AMMU.utils.autoplay import set_user_play
             if isinstance(result, dict):
                 title = result.get("title", "")
                 if title:

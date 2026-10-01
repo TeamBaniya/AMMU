@@ -13,9 +13,9 @@ from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 
 from config import PLAYLIST_IMG_URL, SUPPORT_CHAT, adminlist, MAX_USER_PLAY_LIMIT
 from strings import get_string
-from ANNIEMUSIC import YouTube, app
-from ANNIEMUSIC.misc import SUDOERS, db
-from ANNIEMUSIC.utils.database import (
+from AMMU import YouTube, app
+from AMMU.misc import SUDOERS, db
+from AMMU.utils.database import (
     get_assistant,
     get_cmode,
     get_lang,
@@ -24,7 +24,7 @@ from ANNIEMUSIC.utils.database import (
     is_active_chat,
     is_maintenance,
 )
-from ANNIEMUSIC.utils.inline import botplaylist_markup
+from AMMU.utils.inline import botplaylist_markup
 
 # Security function to validate YouTube URLs
 def is_safe_youtube_url(url: str) -> bool:

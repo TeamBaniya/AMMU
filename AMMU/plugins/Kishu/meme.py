@@ -1,6 +1,6 @@
 from pyrogram import Client, filters
 import requests
-from ANNIEMUSIC import app
+from AMMU import app
 
 
 @app.on_message(filters.command("meme"))

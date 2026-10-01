@@ -1,5 +1,5 @@
 """
-Premium Emoji Middleware for ANNIEMUSIC Bot.
+Premium Emoji Middleware for AMMU Bot.
 Patches Pyrogram client to auto-replace emojis with premium custom emoji tags.
 Only modifies message TEXT content, never touches Python code.
 """

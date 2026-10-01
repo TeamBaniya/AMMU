@@ -10,16 +10,16 @@ from pyrogram.types import (
     Message,
 )
 
-from ANNIEMUSIC import app, YouTube
+from AMMU import app, YouTube
 from config import (
     BANNED_USERS,
     SONG_DOWNLOAD_DURATION,
     SONG_DOWNLOAD_DURATION_LIMIT,
 )
-from ANNIEMUSIC.utils.decorators.language import language, languageCB
-from ANNIEMUSIC.utils.errors import capture_err, capture_callback_err
-from ANNIEMUSIC.utils.formatters import convert_bytes, time_to_seconds
-from ANNIEMUSIC.utils.inline.song import song_markup
+from AMMU.utils.decorators.language import language, languageCB
+from AMMU.utils.errors import capture_err, capture_callback_err
+from AMMU.utils.formatters import convert_bytes, time_to_seconds
+from AMMU.utils.inline.song import song_markup
 
 SONG_COMMAND = ["song"]
 

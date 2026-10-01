@@ -1,8 +1,8 @@
 from pyrogram import filters
 from pyrogram.types import Message
 
-from ANNIEMUSIC import app
-from ANNIEMUSIC.core.call import RAJ
+from AMMU import app
+from AMMU.core.call import RAJ
 
 welcome = 20
 close = 30

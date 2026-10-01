@@ -1,7 +1,7 @@
 services:
   - type: worker
-    name: ANNIEMUSIC-bot
+    name: AMMU-bot
     env: python
     plan: free
     buildCommand: pip3 install -r requirements.txt
-    startCommand: python3 -m ANNIEMUSIC 
+    startCommand: python3 -m AMMU 

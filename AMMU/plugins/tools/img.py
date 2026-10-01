@@ -6,7 +6,7 @@ import time
 import random
 import re
 import asyncio
-from ANNIEMUSIC import app
+from AMMU import app
 from pyrogram import filters
 from pyrogram.types import Message
 from PIL import Image

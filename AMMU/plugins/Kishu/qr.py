@@ -1,6 +1,6 @@
 from pyrogram import filters
 from pyrogram.types import Message
-from ANNIEMUSIC import app
+from AMMU import app
 import qrcode
 import io
 

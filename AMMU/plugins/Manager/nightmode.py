@@ -3,8 +3,8 @@ from apscheduler.schedulers.asyncio import AsyncIOScheduler
 from pyrogram import filters, enums
 from pyrogram.enums import MessageEntityType
 from pyrogram.types import ChatPermissions, Message
-from ANNIEMUSIC import app
-from ANNIEMUSIC.plugins.Manager.nightmodedb import nightdb, nightmode_on, nightmode_off, get_nightchats
+from AMMU import app
+from AMMU.plugins.Manager.nightmodedb import nightdb, nightmode_on, nightmode_off, get_nightchats
 from datetime import datetime
 import pytz
 import builtins

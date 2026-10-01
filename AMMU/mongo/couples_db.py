@@ -1,4 +1,4 @@
-from ANNIEMUSIC.core.mongo import mongodb
+from AMMU.core.mongo import mongodb
 
 coupledb = mongodb["couple"]
 

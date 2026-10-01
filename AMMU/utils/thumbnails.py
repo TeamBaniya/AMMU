@@ -8,7 +8,7 @@ from PIL import (
 )
 
 from config import YOUTUBE_IMG_URL
-from ANNIEMUSIC.core.dir import CACHE_DIR
+from AMMU.core.dir import CACHE_DIR
 
 
 # =========================================================

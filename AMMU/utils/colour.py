@@ -1,7 +1,7 @@
 # ═══════════════════════════════════════════════════════════
-#        😎  ANNIEMUSIC MUSIC BOT  😎
-#   GitHub : github.com/ItsMeANNIEMUSIC0/ANNIEMUSICMusic
-#   Developer : @ItsMeANNIEMUSICBots | Telegram
+#        😎  AMMU MUSIC BOT  😎
+#   GitHub : github.com/ItsMeAMMU0/AMMUMusic
+#   Developer : @ItsMeAMMUBots | Telegram
 #   Module : Colored Inline Buttons via Bot API HTTP
 # ═══════════════════════════════════════════════════════════
 
@@ -141,6 +141,6 @@ async def edit_reply_markup_colored(
 
 
 # ═══════════════════════════════════════════════════════════
-#        😎  ANNIEMUSIC MUSIC BOT  😎
-#   github.com/ItsMeANNIEMUSIC0/ANNIEMUSICMusic
+#        😎  AMMU MUSIC BOT  😎
+#   github.com/ItsMeAMMU0/AMMUMusic
 # ═══════════════════════════════════════════════════════════

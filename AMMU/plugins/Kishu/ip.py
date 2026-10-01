@@ -1,6 +1,6 @@
 from pyrogram import filters
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
-from ANNIEMUSIC import app
+from AMMU import app
 
 import asyncio
 import httpx

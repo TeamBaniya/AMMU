@@ -2,11 +2,11 @@ from pyrogram import filters
 from pyrogram.types import CallbackQuery, InlineKeyboardButton, InlineKeyboardMarkup, Message
 
 from config import BANNED_USERS, OWNER_ID
-from ANNIEMUSIC import app
-from ANNIEMUSIC.misc import SUDOERS
-from ANNIEMUSIC.utils.database import add_sudo, remove_sudo
-from ANNIEMUSIC.utils.decorators.language import language
-from ANNIEMUSIC.utils.extraction import extract_user
+from AMMU import app
+from AMMU.misc import SUDOERS
+from AMMU.utils.database import add_sudo, remove_sudo
+from AMMU.utils.decorators.language import language
+from AMMU.utils.extraction import extract_user
 
 # ─── Add Sudo ─────────────────────────────────────────────
 

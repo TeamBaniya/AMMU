@@ -1,6 +1,6 @@
 from datetime import datetime, timedelta, timezone
 from typing import Optional
-from ANNIEMUSIC.core.mongo import mongodb
+from AMMU.core.mongo import mongodb
 
 _col = mongodb["welcome"]
 

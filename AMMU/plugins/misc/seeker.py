@@ -1,7 +1,7 @@
 import asyncio
 
-from ANNIEMUSIC.misc import db
-from ANNIEMUSIC.utils.database import get_active_chats, is_music_playing
+from AMMU.misc import db
+from AMMU.utils.database import get_active_chats, is_music_playing
 
 
 async def timer():

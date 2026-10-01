@@ -12,8 +12,8 @@ from pyrogram.types import (
     Message,
 )
 
-from ANNIEMUSIC import app
-from ANNIEMUSIC.utils.admin_check import is_admin
+from AMMU import app
+from AMMU.utils.admin_check import is_admin
 
 chatQueue: set[int] = set()
 stopProcess: bool = False

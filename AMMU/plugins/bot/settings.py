@@ -3,8 +3,8 @@ from pyrogram.enums import ChatType
 from pyrogram.errors import MessageNotModified
 from pyrogram.types import CallbackQuery, InlineKeyboardButton, InlineKeyboardMarkup, Message
 
-from ANNIEMUSIC import app
-from ANNIEMUSIC.utils.database import (
+from AMMU import app
+from AMMU.utils.database import (
     add_nonadmin_chat,
     get_authuser,
     get_authuser_names,
@@ -20,15 +20,15 @@ from ANNIEMUSIC.utils.database import (
     skip_off,
     skip_on,
 )
-from ANNIEMUSIC.utils.decorators.admins import ActualAdminCB
-from ANNIEMUSIC.utils.decorators.language import language, languageCB
-from ANNIEMUSIC.utils.inline.settings import (
+from AMMU.utils.decorators.admins import ActualAdminCB
+from AMMU.utils.decorators.language import language, languageCB
+from AMMU.utils.inline.settings import (
     auth_users_markup,
     playmode_users_markup,
     setting_markup,
     vote_mode_markup,
 )
-from ANNIEMUSIC.utils.inline.start import private_panel
+from AMMU.utils.inline.start import private_panel
 from config import BANNED_USERS, OWNER_ID
 
 # ─── SETTINGS MESSAGE ──────────────────────────────────────────────

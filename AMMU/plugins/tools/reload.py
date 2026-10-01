@@ -5,12 +5,12 @@ from pyrogram import filters
 from pyrogram.enums import ChatMembersFilter
 from pyrogram.types import CallbackQuery, Message
 
-from ANNIEMUSIC import app
-from ANNIEMUSIC.core.call import RAJ
-from ANNIEMUSIC.misc import db
-from ANNIEMUSIC.utils.database import get_assistant, get_authuser_names, get_cmode
-from ANNIEMUSIC.utils.decorators import AdminActual, language
-from ANNIEMUSIC.utils.formatters import alpha_to_int, get_readable_time
+from AMMU import app
+from AMMU.core.call import RAJ
+from AMMU.misc import db
+from AMMU.utils.database import get_assistant, get_authuser_names, get_cmode
+from AMMU.utils.decorators import AdminActual, language
+from AMMU.utils.formatters import alpha_to_int, get_readable_time
 from config import BANNED_USERS, adminlist, lyrical
 
 

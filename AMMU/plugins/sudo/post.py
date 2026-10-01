@@ -1,5 +1,5 @@
 from pyrogram import filters
-from ANNIEMUSIC import app
+from AMMU import app
 from config import OWNER_ID
 
 destination_group_id = -1002076109983

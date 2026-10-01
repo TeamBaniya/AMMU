@@ -1,6 +1,6 @@
 print("AUTOAPPROVE PLUGIN LOADED✅")
 
-from ANNIEMUSIC import app
+from AMMU import app
 from pyrogram import filters
 from pyrogram.types import (
     ChatJoinRequest,
@@ -8,7 +8,7 @@ from pyrogram.types import (
     InlineKeyboardButton,
     CallbackQuery,
 )
-from ANNIEMUSIC.core.mongo import mongodb
+from AMMU.core.mongo import mongodb
 
 
 # ✦━━━━━━━━━━━━━━ MONGO DB ━━━━━━━━━━━━━✦

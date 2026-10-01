@@ -1,8 +1,8 @@
 import asyncio
 from typing import Union
 
-from ANNIEMUSIC.misc import db
-from ANNIEMUSIC.utils.formatters import check_duration, seconds_to_min
+from AMMU.misc import db
+from AMMU.utils.formatters import check_duration, seconds_to_min
 from config import autoclean, time_to_seconds
 
 

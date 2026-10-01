@@ -1,7 +1,7 @@
 from pyrogram import Client, filters
 from pyrogram.types import Message
 from pyrogram.enums import ParseMode
-from ANNIEMUSIC import app
+from AMMU import app
 import httpx
 
 BORED_API_URL = "https://apis.scrimba.com/bored/api/activity"

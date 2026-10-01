@@ -1,12 +1,12 @@
 from pyrogram import filters
 from pyrogram.types import InlineKeyboardMarkup, Message
 
-from ANNIEMUSIC import app
-from ANNIEMUSIC.utils.database import get_playmode, get_playtype, is_nonadmin_chat
-from ANNIEMUSIC.utils.decorators import language
-from ANNIEMUSIC.utils.inline.settings import playmode_users_markup
+from AMMU import app
+from AMMU.utils.database import get_playmode, get_playtype, is_nonadmin_chat
+from AMMU.utils.decorators import language
+from AMMU.utils.inline.settings import playmode_users_markup
 from config import BANNED_USERS
-from ANNIEMUSIC.utils.errors import capture_err
+from AMMU.utils.errors import capture_err
 
 
 @app.on_message(filters.command(["playmode" , "mode" ] ,prefixes=["/", "!", "%", ",", ".", "@", "#"]) & filters.group & ~BANNED_USERS)

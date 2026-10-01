@@ -1,11 +1,11 @@
 from pyrogram import filters
 from pyrogram.types import Message
 
-from ANNIEMUSIC import app
-from ANNIEMUSIC.core.call import RAJ
-from ANNIEMUSIC.utils.database import is_music_playing, music_off
-from ANNIEMUSIC.utils.decorators import AdminRightsCheck
-from ANNIEMUSIC.utils.inline import close_markup
+from AMMU import app
+from AMMU.core.call import RAJ
+from AMMU.utils.database import is_music_playing, music_off
+from AMMU.utils.decorators import AdminRightsCheck
+from AMMU.utils.inline import close_markup
 from config import BANNED_USERS
 
 

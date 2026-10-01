@@ -5,9 +5,9 @@ from pyrogram.types import (
 )
 from py_yt import VideosSearch
 
-from ANNIEMUSIC.utils.inlinequery import answer
+from AMMU.utils.inlinequery import answer
 from config import BANNED_USERS
-from ANNIEMUSIC import app
+from AMMU import app
 
 
 @app.on_inline_query(~BANNED_USERS)

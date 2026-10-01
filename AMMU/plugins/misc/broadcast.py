@@ -4,17 +4,17 @@ from pyrogram import filters
 from pyrogram.enums import ChatMembersFilter
 from pyrogram.errors import FloodWait
 
-from ANNIEMUSIC import app
-from ANNIEMUSIC.misc import SUDOERS
-from ANNIEMUSIC.utils.database import (
+from AMMU import app
+from AMMU.misc import SUDOERS
+from AMMU.utils.database import (
     get_active_chats,
     get_authuser_names,
     get_client,
     get_served_chats,
     get_served_users,
 )
-from ANNIEMUSIC.utils.decorators.language import language
-from ANNIEMUSIC.utils.formatters import alpha_to_int
+from AMMU.utils.decorators.language import language
+from AMMU.utils.formatters import alpha_to_int
 from config import adminlist
 
 IS_BROADCASTING = False
@@ -117,7 +117,7 @@ async def braodcast_message(client, message, _):
     if "-assistant" in message.text:
         aw = await message.reply_text(_["broad_5"])
         text = _["broad_6"]
-        from ANNIEMUSIC.core.userbot import assistants
+        from AMMU.core.userbot import assistants
 
         for num in assistants:
             sent = 0

@@ -30,11 +30,11 @@ from pyrogram.errors import (
     PeerIdInvalid, ChannelPrivate, MessageNotModified, MessageIdInvalid
 )
 
-from ANNIEMUSIC import app
-from ANNIEMUSIC.logging import LOGGER as _LOGGER_FACTORY
-from ANNIEMUSIC.misc import SUDOERS
-from ANNIEMUSIC.utils.database import get_assistant
-from ANNIEMUSIC.utils.permissions import is_owner_or_sudoer, mention
+from AMMU import app
+from AMMU.logging import LOGGER as _LOGGER_FACTORY
+from AMMU.misc import SUDOERS
+from AMMU.utils.database import get_assistant
+from AMMU.utils.permissions import is_owner_or_sudoer, mention
 
 log = _LOGGER_FACTORY(__name__)
 

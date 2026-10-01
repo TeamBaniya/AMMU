@@ -11,15 +11,15 @@ from git.exc import GitCommandError, InvalidGitRepositoryError
 from pyrogram import filters
 
 import config
-from ANNIEMUSIC import app
-from ANNIEMUSIC.misc import HAPP, SUDOERS, XCB
-from ANNIEMUSIC.utils.database import (
+from AMMU import app
+from AMMU.misc import HAPP, SUDOERS, XCB
+from AMMU.utils.database import (
     get_active_chats,
     remove_active_chat,
     remove_active_video_chat,
 )
-from ANNIEMUSIC.utils.decorators.language import language
-from ANNIEMUSIC.utils.pastebin import ANNIEBIN
+from AMMU.utils.decorators.language import language
+from AMMU.utils.pastebin import ANNIEBIN
 
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
@@ -139,7 +139,7 @@ async def update_(client, message, _):
                 text=_["server_10"].format(err),
             )
     else:
-        os.execv(sys.executable, [sys.executable, "-m", "ANNIEMUSIC"])
+        os.execv(sys.executable, [sys.executable, "-m", "AMMU"])
 
 
 @app.on_message(filters.command(["restart"]) & SUDOERS)
@@ -163,4 +163,4 @@ async def restart_(_, message):
         "» ʀᴇsᴛᴀʀᴛ ᴘʀᴏᴄᴇss sᴛᴀʀᴛᴇᴅ, ᴘʟᴇᴀsᴇ ᴡᴀɪᴛ ғᴏʀ ғᴇᴡ sᴇᴄᴏɴᴅs ᴜɴᴛɪʟ ᴛʜᴇ ʙᴏᴛ sᴛᴀʀᴛs..."
     )
 
-    os.execv(sys.executable, [sys.executable, "-m", "ANNIEMUSIC"])
+    os.execv(sys.executable, [sys.executable, "-m", "AMMU"])

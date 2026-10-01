@@ -2,7 +2,7 @@ import os
 import aiohttp
 import aiofiles
 from pyrogram import filters
-from ANNIEMUSIC import app
+from AMMU import app
 
 API_KEY = "23nfCEipDijgVv6SH14oktJe"
 

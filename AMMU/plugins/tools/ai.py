@@ -1,4 +1,4 @@
-# ANNIEMUSIC/plugins/tools/ai.py
+# AMMU/plugins/tools/ai.py
 import os
 import base64
 import mimetypes
@@ -7,7 +7,7 @@ import asyncio
 from pyrogram import Client, filters
 from pyrogram.types import Message
 from pyrogram.enums import ChatAction
-from ANNIEMUSIC import app
+from AMMU import app
 from dotenv import load_dotenv
 
 # -------------------------

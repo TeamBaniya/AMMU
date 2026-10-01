@@ -3,7 +3,7 @@ import aiohttp
 import aiofiles
 import base64
 from config import DEEP_API
-from ANNIEMUSIC import app
+from AMMU import app
 from pyrogram import filters
 from pyrogram.types import Message
 

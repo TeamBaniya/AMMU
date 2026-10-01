@@ -1,11 +1,11 @@
 from pyrogram import filters
 from pyrogram.types import Message
-from ANNIEMUSIC import app
-from ANNIEMUSIC.mongo.pretenderdb import (
+from AMMU import app
+from AMMU.mongo.pretenderdb import (
     impo_off, impo_on, check_pretender,
     add_userdata, get_userdata, usr_data
 )
-from ANNIEMUSIC.utils.admin_filters import admin_filter
+from AMMU.utils.admin_filters import admin_filter
 
 # --------------------------------------------------------------------------
 # ✔ FIXED: Pretender detection → group=1 

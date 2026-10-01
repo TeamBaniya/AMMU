@@ -3,7 +3,7 @@ from pyrogram.types import Message
 from pyrogram.enums import ChatType
 from pyrogram.errors import ChatSendPlainForbidden, ChatWriteForbidden, Forbidden, ChannelPrivate
 
-from ANNIEMUSIC import app
+from AMMU import app
 from config import OWNER_ID
 
 

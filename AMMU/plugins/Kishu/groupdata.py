@@ -5,7 +5,7 @@ from asyncio import sleep
 from pyrogram import filters, enums
 from pyrogram.types import Message
 
-from ANNIEMUSIC import app
+from AMMU import app
 
 
 @app.on_message(~filters.private & filters.command(["groupdata"]), group=2)

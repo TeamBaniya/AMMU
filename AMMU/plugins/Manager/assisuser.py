@@ -12,9 +12,9 @@ from pyrogram.errors import (
     ChatWriteForbidden,
 )
 
-from ANNIEMUSIC import app
-from ANNIEMUSIC.utils.admin_filters import dev_filter, admin_filter, sudo_filter
-from ANNIEMUSIC.utils.database import get_assistant
+from AMMU import app
+from AMMU.utils.admin_filters import dev_filter, admin_filter, sudo_filter
+from AMMU.utils.database import get_assistant
 
 
 ACTIVE_STATUSES = {

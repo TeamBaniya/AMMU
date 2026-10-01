@@ -2,9 +2,9 @@ from pyrogram import filters, Client
 from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton
 from unidecode import unidecode
 
-from ANNIEMUSIC import app
-from ANNIEMUSIC.misc import SUDOERS
-from ANNIEMUSIC.utils.database import (
+from AMMU import app
+from AMMU.misc import SUDOERS
+from AMMU.utils.database import (
     get_active_chats,
     get_active_video_chats,
     remove_active_chat,

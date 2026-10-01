@@ -1,8 +1,8 @@
 from pyrogram import filters
 from pyrogram.types import Message, ChatPermissions
 from pyrogram.enums import ChatType, MessageEntityType
-from ANNIEMUSIC import app
-from ANNIEMUSIC.utils.decorators.language import language
+from AMMU import app
+from AMMU.utils.decorators.language import language
 import asyncio
 import json
 import os

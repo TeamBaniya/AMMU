@@ -1,6 +1,6 @@
 from pyrogram import filters
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
-from ANNIEMUSIC import app
+from AMMU import app
 
 # 👇 Tumhara Flask session generator ka URL
 SESSION_GENERATOR_URL = "http://194.62.248.97:8080"

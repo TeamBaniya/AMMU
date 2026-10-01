@@ -5,7 +5,7 @@ from pyrogram import filters
 from pyrogram.types import Message, InlineKeyboardButton, InlineKeyboardMarkup
 from pyrogram.enums import ParseMode
 
-from ANNIEMUSIC import app
+from AMMU import app
 
 
 def _safe(x: str | None) -> str:

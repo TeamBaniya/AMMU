@@ -9,23 +9,23 @@ from pytgcalls.exceptions import NoActiveGroupCall
 
 import config
 from config import AYU, BANNED_USERS, lyrical
-from ANNIEMUSIC import Apple, Resso, SoundCloud, Spotify, Telegram, YouTube, app
-from ANNIEMUSIC.core.call import RAJ
-from ANNIEMUSIC.utils import seconds_to_min, time_to_seconds
-from ANNIEMUSIC.utils.channelplay import get_channeplayCB
-from ANNIEMUSIC.utils.decorators.language import languageCB
-from ANNIEMUSIC.utils.decorators.play import PlayWrapper
-from ANNIEMUSIC.utils.errors import capture_err, capture_callback_err
-from ANNIEMUSIC.utils.formatters import formats
-from ANNIEMUSIC.utils.inline import (
+from AMMU import Apple, Resso, SoundCloud, Spotify, Telegram, YouTube, app
+from AMMU.core.call import RAJ
+from AMMU.utils import seconds_to_min, time_to_seconds
+from AMMU.utils.channelplay import get_channeplayCB
+from AMMU.utils.decorators.language import languageCB
+from AMMU.utils.decorators.play import PlayWrapper
+from AMMU.utils.errors import capture_err, capture_callback_err
+from AMMU.utils.formatters import formats
+from AMMU.utils.inline import (
     botplaylist_markup,
     livestream_markup,
     playlist_markup,
     slider_markup,
     track_markup,
 )
-from ANNIEMUSIC.utils.logger import play_logs
-from ANNIEMUSIC.utils.stream.stream import stream
+from AMMU.utils.logger import play_logs
+from AMMU.utils.stream.stream import stream
 
 
 @app.on_message(
@@ -408,7 +408,7 @@ async def play_command(
 
         # 🔥 Save user's search query for autoplay
         try:
-            from ANNIEMUSIC.utils.autoplay import set_user_play
+            from AMMU.utils.autoplay import set_user_play
             set_user_play(chat_id, query)
         except:
             pass

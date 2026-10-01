@@ -8,9 +8,9 @@ from pyrogram.types import Message
 from pyrogram.errors import FloodWait, ChannelInvalid, ChatAdminRequired, PeerIdInvalid
 
 from pyrogram.raw import functions
-from ANNIEMUSIC import app
-from ANNIEMUSIC.utils.database import get_assistant
-from ANNIEMUSIC.core.mongo import mongodb
+from AMMU import app
+from AMMU.utils.database import get_assistant
+from AMMU.core.mongo import mongodb
 
 LOGGER = getLogger(__name__)
 

@@ -14,17 +14,17 @@ from pyrogram.enums import MessageEntityType
 from pyrogram.types import Message
 from py_yt import VideosSearch
 
-from ANNIEMUSIC.utils.cookie_handler import COOKIE_PATH
-from ANNIEMUSIC.utils.database import is_on_off
-from ANNIEMUSIC.utils.downloader import download_audio_concurrent, yt_dlp_download
-from ANNIEMUSIC.utils.errors import capture_internal_err
-from ANNIEMUSIC.utils.formatters import time_to_seconds
-from ANNIEMUSIC.utils.tuning import (
+from AMMU.utils.cookie_handler import COOKIE_PATH
+from AMMU.utils.database import is_on_off
+from AMMU.utils.downloader import download_audio_concurrent, yt_dlp_download
+from AMMU.utils.errors import capture_internal_err
+from AMMU.utils.formatters import time_to_seconds
+from AMMU.utils.tuning import (
     YTDLP_TIMEOUT,
     YOUTUBE_META_MAX,
     YOUTUBE_META_TTL,
 )
-from ANNIEMUSIC import LOGGER
+from AMMU import LOGGER
 
 _cache: Dict[str, Tuple[float, List[Dict]]] = {}
 _cache_lock = asyncio.Lock()
@@ -56,7 +56,7 @@ _MAX_REQUESTS_PER_WINDOW = 10
 async def load_apis():
     """Load and verify both APIs"""
     global PRIMARY_API_LOADED, FALLBACK_API_LOADED
-    logger = LOGGER("ANNIEMUSIC.platforms.Youtube.py")
+    logger = LOGGER("AMMU.platforms.Youtube.py")
     
     # Check Primary API
     try:

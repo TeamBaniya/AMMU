@@ -21,9 +21,9 @@ try:
 except ImportError:
     from pyrogram.types import ChatPrivileges as ChatAdministratorRights, Message
 
-from ANNIEMUSIC import app
-from ANNIEMUSIC.utils.decorator import admin_required
-from ANNIEMUSIC.utils.permissions import extract_user_and_title, mention, parse_time
+from AMMU import app
+from AMMU.utils.decorator import admin_required
+from AMMU.utils.permissions import extract_user_and_title, mention, parse_time
 
 
 # ────────────────────────────────────────────────────────────

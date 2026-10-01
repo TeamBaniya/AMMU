@@ -1,6 +1,6 @@
 from pyrogram import filters
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
-from ANNIEMUSIC import app
+from AMMU import app
 from config import BOT_USERNAME
 
 repo_caption = """**
@@ -21,7 +21,7 @@ async def show_repo(_, msg):
         [InlineKeyboardButton("➕ ᴀᴅᴅ ᴍᴇ ʙᴀʙʏ ✨", url=f"https://t.me/{BOT_USERNAME}?startgroup=true")],
         [
             InlineKeyboardButton("👑 ᴏᴡɴᴇʀ", url="https://t.me/RAJOWNERX1"),
-            InlineKeyboardButton("💬 ꜱᴜᴘᴘᴏʀᴛ", url="https://t.me/AnnieMusicBots")
+            InlineKeyboardButton("💬 ꜱᴜᴘᴘᴏʀᴛ", url="https://t.me/AMMUBots")
         ],
         [
             InlineKeyboardButton("🛠️ ꜱᴜᴘᴘᴏʀᴛ ᴄʜᴀᴛ", url="https://t.me/AnnieBotSupport"),

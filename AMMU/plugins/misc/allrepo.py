@@ -1,7 +1,7 @@
 from pyrogram import Client, filters
 from pyrogram.types import Message
 import httpx
-from ANNIEMUSIC import app
+from AMMU import app
 
 
 def chunk_string(text, chunk_size):

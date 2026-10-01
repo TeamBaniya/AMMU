@@ -2,7 +2,7 @@ import asyncio
 import os
 from datetime import datetime, timedelta
 from typing import Union
-from ANNIEMUSIC.utils.autoplay import auto_play_next
+from AMMU.utils.autoplay import auto_play_next
 from ntgcalls import TelegramServerError
 from pyrogram import Client
 from pyrogram.errors import FloodWait, ChatAdminRequired
@@ -13,9 +13,9 @@ from pytgcalls.types import AudioQuality, ChatUpdate, MediaStream, StreamEnded, 
 
 import config
 from strings import get_string
-from ANNIEMUSIC import LOGGER, YouTube, app
-from ANNIEMUSIC.misc import db
-from ANNIEMUSIC.utils.database import (
+from AMMU import LOGGER, YouTube, app
+from AMMU.misc import db
+from AMMU.utils.database import (
     add_active_chat,
     add_active_video_chat,
     get_lang,
@@ -27,13 +27,13 @@ from ANNIEMUSIC.utils.database import (
     remove_active_video_chat,
     set_loop,
 )
-from ANNIEMUSIC.utils.exceptions import AssistantErr
-from ANNIEMUSIC.utils.formatters import check_duration, seconds_to_min, speed_converter
-from ANNIEMUSIC.utils.inline.play import stream_markup
-from ANNIEMUSIC.utils.stream.autoclear import auto_clean
-from ANNIEMUSIC.utils.thumbnails import get_thumb
-from ANNIEMUSIC.utils.errors import capture_internal_err, send_large_error
-from ANNIEMUSIC.plugins.tools.thumb import get_thumb_status
+from AMMU.utils.exceptions import AssistantErr
+from AMMU.utils.formatters import check_duration, seconds_to_min, speed_converter
+from AMMU.utils.inline.play import stream_markup
+from AMMU.utils.stream.autoclear import auto_clean
+from AMMU.utils.thumbnails import get_thumb
+from AMMU.utils.errors import capture_internal_err, send_large_error
+from AMMU.plugins.tools.thumb import get_thumb_status
 
 autoend = {}
 counter = {}
@@ -273,7 +273,7 @@ class Call:
             # 🔥 QUEUE EMPTY
             if not check:
                 # Check if autoplay is enabled
-                from ANNIEMUSIC.core.mongo import mongodb
+                from AMMU.core.mongo import mongodb
                 autoplay_db = mongodb.autoplay
                 autoplay_data = await autoplay_db.find_one({"chat_id": chat_id})
                 autoplay_enabled = autoplay_data and autoplay_data.get("status", False)
@@ -318,7 +318,7 @@ class Call:
 
         except IndexError:
             # Queue was empty
-            from ANNIEMUSIC.core.mongo import mongodb
+            from AMMU.core.mongo import mongodb
             autoplay_db = mongodb.autoplay
             autoplay_data = await autoplay_db.find_one({"chat_id": chat_id})
             autoplay_enabled = autoplay_data and autoplay_data.get("status", False)

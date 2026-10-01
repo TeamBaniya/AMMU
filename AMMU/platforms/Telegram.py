@@ -6,8 +6,8 @@ from typing import Optional, Union
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, Voice
 
 import config
-from ANNIEMUSIC import app
-from ANNIEMUSIC.utils.formatters import (
+from AMMU import app
+from AMMU.utils.formatters import (
     check_duration,
     convert_bytes,
     get_readable_time,

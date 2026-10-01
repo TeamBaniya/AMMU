@@ -2,8 +2,8 @@ import os
 from pyrogram import Client, filters
 from pyrogram.types import Message
 from pyrogram.errors import FloodWait, ChannelInvalid, ChannelPrivate
-from ANNIEMUSIC import app
-from ANNIEMUSIC.misc import SUDOERS
+from AMMU import app
+from AMMU.misc import SUDOERS
 
 
 @app.on_message(filters.command("givelink"))

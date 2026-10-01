@@ -1,8 +1,8 @@
 import asyncio
 from datetime import datetime
 from pyrogram import filters
-from ANNIEMUSIC import app
-from ANNIEMUSIC.core.userbot import Userbot
+from AMMU import app
+from AMMU.core.userbot import Userbot
 from config import OWNER_ID
 
 userbot = Userbot()

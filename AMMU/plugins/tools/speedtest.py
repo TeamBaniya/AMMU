@@ -4,9 +4,9 @@ import speedtest
 from pyrogram import filters
 from pyrogram.types import Message
 
-from ANNIEMUSIC import app
-from ANNIEMUSIC.misc import SUDOERS
-from ANNIEMUSIC.utils.decorators.language import language
+from AMMU import app
+from AMMU.misc import SUDOERS
+from AMMU.utils.decorators.language import language
 
 
 def run_speedtest():

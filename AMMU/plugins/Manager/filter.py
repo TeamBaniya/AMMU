@@ -2,8 +2,8 @@ import re
 from pyrogram import filters
 from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton, CallbackQuery
 from pyrogram.enums import ChatMemberStatus
-from ANNIEMUSIC import app
-from ANNIEMUSIC.core.mongo import mongodb
+from AMMU import app
+from AMMU.core.mongo import mongodb
 
 filtersdb = mongodb["filters"]
 warndb = mongodb["warns"]
@@ -236,7 +236,7 @@ async def auto_filter(client, m: Message):
                     sent = False
                     # Try userbot first (premium account preserves custom emoji)
                     try:
-                        from ANNIEMUSIC.core.call import RAJ
+                        from AMMU.core.call import RAJ
                         userbot = RAJ.userbot1
                         if userbot:
                             await userbot.copy_message(

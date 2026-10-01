@@ -1,8 +1,8 @@
 from pyrogram import filters
 from pyrogram.types import Message
-from ANNIEMUSIC.utils.admin_check import is_admin
-from ANNIEMUSIC import app
-from ANNIEMUSIC.core.mongo import mongodb
+from AMMU.utils.admin_check import is_admin
+from AMMU import app
+from AMMU.core.mongo import mongodb
 import asyncio
 
 db = mongodb.blacklist_words

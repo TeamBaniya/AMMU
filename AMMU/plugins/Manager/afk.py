@@ -1,7 +1,7 @@
 from datetime import datetime, timedelta
 from pyrogram import filters
 from pyrogram.types import Message
-from ANNIEMUSIC import app
+from AMMU import app
 from motor.motor_asyncio import AsyncIOMotorClient
 import os
 
@@ -11,7 +11,7 @@ if not MONGO_URL:
     raise RuntimeError("MONGO_DB_URI is not set. Please provide it in the environment or .env file.")
 
 mongo = AsyncIOMotorClient(MONGO_URL)
-db = mongo["ANNIEMUSIC"]
+db = mongo["AMMU"]
 afk_collection = db["afk_users"]
 
 def build_afk_set_message(user_name, reason):

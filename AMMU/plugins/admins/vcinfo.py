@@ -2,10 +2,10 @@ from pyrogram import filters
 from pyrogram.types import Message
 
 from config import BANNED_USERS
-from ANNIEMUSIC import app
-from ANNIEMUSIC.core.call import RAJ
-from ANNIEMUSIC.utils.database import group_assistant
-from ANNIEMUSIC.utils.admin_filters import admin_filter
+from AMMU import app
+from AMMU.core.call import RAJ
+from AMMU.utils.database import group_assistant
+from AMMU.utils.admin_filters import admin_filter
 
 
 @app.on_message(filters.command(["vcinfo", "vcmembers"]) & filters.group & admin_filter & ~BANNED_USERS)

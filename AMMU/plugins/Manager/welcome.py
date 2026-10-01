@@ -7,12 +7,12 @@ try:
 except ImportError:
     TopicClosed = Exception
     from pyrogram.errors import PeerIdInvalid, ChannelPrivate, SlowmodeWait
-from ANNIEMUSIC import app
-from ANNIEMUSIC.mongo.welcomedb import is_on, set_state, bump, cool, auto_on
+from AMMU import app
+from AMMU.mongo.welcomedb import is_on, set_state, bump, cool, auto_on
 
-BG_PATH = "ANNIEMUSIC/assets/annie/welcome.png"
-FALLBACK_PIC = "ANNIEMUSIC/assets/upic.png"
-FONT_PATH = "ANNIEMUSIC/assets/annie/Arimo.ttf"
+BG_PATH = "AMMU/assets/annie/welcome.png"
+FALLBACK_PIC = "AMMU/assets/upic.png"
+FONT_PATH = "AMMU/assets/annie/Arimo.ttf"
 BTN_VIEW = "๏ ᴠɪᴇᴡ ɴᴇᴡ ᴍᴇᴍʙᴇʀ ๏"
 BTN_ADD = "๏ ᴋɪᴅɴᴀᴘ ᴍᴇ ๏"
 
@@ -202,7 +202,7 @@ async def welcome(client, update: ChatMemberUpdated):
             return
     finally:
         for f in (avatar, img):
-            if f and os.path.exists(f) and "ANNIEMUSIC/assets" not in f:
+            if f and os.path.exists(f) and "AMMU/assets" not in f:
                 try:
                     os.remove(f)
                 except:

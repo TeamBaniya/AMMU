@@ -26,9 +26,9 @@ from pyrogram import filters, enums
 from pyrogram.errors import ChatAdminRequired, UserAdminInvalid, UserNotParticipant, RPCError
 from pyrogram.types import Message, ChatPermissions
 
-from ANNIEMUSIC import app
-from ANNIEMUSIC.utils.decorator import admin_required
-from ANNIEMUSIC.utils.permissions import extract_user_and_reason, mention, parse_time
+from AMMU import app
+from AMMU.utils.decorator import admin_required
+from AMMU.utils.permissions import extract_user_and_reason, mention, parse_time
 
 # ────────────────────────────────────────────────────────────
 # Constants & Helpers

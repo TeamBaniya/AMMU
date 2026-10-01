@@ -1,8 +1,8 @@
 import time
 from pyrogram.types import InlineKeyboardButton
-from ANNIEMUSIC.utils.formatters import time_to_seconds
-from ANNIEMUSIC.core.mongo import mongodb
-from ANNIEMUSIC.utils.colour import styled_button
+from AMMU.utils.formatters import time_to_seconds
+from AMMU.core.mongo import mongodb
+from AMMU.utils.colour import styled_button
 
 LAST_UPDATE_TIME = {}
 

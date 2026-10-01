@@ -41,11 +41,11 @@
 
 
 <p align="center">
-  <a href="https://github.com/rajkhilchi786786/ANNIEMUSIC/stargazers"><img src="https://img.shields.io/github/stars/rajkhilchi786786/ANNIEMUSIC?style=flat-square"/></a>
-  <a href="https://github.com/rajkhilchi786786/ANNIEMUSIC/network/members"><img src="https://img.shields.io/github/forks/rajkhilchi786786/ANNIEMUSIC?style=flat-square"/></a>
-  <a href="https://github.com/rajkhilchi786786/ANNIEMUSIC/issues"><img src="https://img.shields.io/github/issues/rajkhilchi786786/ANNIEMUSIC?style=flat-square"/></a>
-  <a href="https://github.com/rajkhilchi786786/ANNIEMUSIC/commits/main"><img src="https://img.shields.io/github/last-commit/rajkhilchi786786/ANNIEMUSIC?style=flat-square"/></a>
-  <a href="https://github.com/rajkhilchi786786/ANNIEMUSIC/actions"><img src="https://img.shields.io/badge/CI-Status-grey?style=flat-square"/></a>
+  <a href="https://github.com/rajkhilchi786786/AMMU/stargazers"><img src="https://img.shields.io/github/stars/rajkhilchi786786/AMMU?style=flat-square"/></a>
+  <a href="https://github.com/rajkhilchi786786/AMMU/network/members"><img src="https://img.shields.io/github/forks/rajkhilchi786786/AMMU?style=flat-square"/></a>
+  <a href="https://github.com/rajkhilchi786786/AMMU/issues"><img src="https://img.shields.io/github/issues/rajkhilchi786786/AMMU?style=flat-square"/></a>
+  <a href="https://github.com/rajkhilchi786786/AMMU/commits/main"><img src="https://img.shields.io/github/last-commit/rajkhilchi786786/AMMU?style=flat-square"/></a>
+  <a href="https://github.com/rajkhilchi786786/AMMU/actions"><img src="https://img.shields.io/badge/CI-Status-grey?style=flat-square"/></a>
 </p>
 
 ## 🌟 What is AnnieXMusic?
@@ -207,8 +207,8 @@ sudo apt install -y nodejs
 npm install -g npm
 
 ### Step 2: Clone Repo
-git clone https://github.com/rajkhilchi786786/ANNIEMUSIC
-cd ANNIEMUSIC
+git clone https://github.com/rajkhilchi786786/AMMU
+cd AMMU
 tmux new -s Annie
 
 ### Step 3: Setup & Run
@@ -239,8 +239,8 @@ rm -rf AnnieXMusic  # Uninstall the repo
 
 ```bash
 ### Step 1: Clone Repo
-git clone https://github.com/rajkhilchi786786/ANNIEMUSIC
-cd ANNIEMUSIC
+git clone https://github.com/rajkhilchi786786/AMMU
+cd AMMU
 
 ### Step 2: Create .env File
 nano .env
@@ -271,7 +271,7 @@ docker rmi anniexmusic      # Remove image
 | Platform                | Deploy Link                                                                                                                                                                                               |
 | ----------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | 🔑 **Generate Session** | <a href="https://t.me/SessionBuilderbot"><img src="https://img.shields.io/badge/Session%20-Generator-blue?style=for-the-badge&logo=telegram"/></a>                                                    |
-| 🌍 **Heroku Deploy**    | <a href="http://dashboard.heroku.com/new?template=https://github.com/rajkhilchi786786/ANNIEMUSIC"><img src="https://img.shields.io/badge/Deploy%20to-Heroku-purple?style=for-the-badge&logo=heroku"/></a> |
+| 🌍 **Heroku Deploy**    | <a href="http://dashboard.heroku.com/new?template=https://github.com/rajkhilchi786786/AMMU"><img src="https://img.shields.io/badge/Deploy%20to-Heroku-purple?style=for-the-badge&logo=heroku"/></a> |
 
 
 
@@ -282,7 +282,7 @@ docker rmi anniexmusic      # Remove image
   <a href="https://t.me/AnnieBotSupport">
     <img src="https://img.shields.io/badge/Support_Group-Telegram-0088cc?style=for-the-badge&logo=telegram&logoColor=white" />
   </a>
-  <a href="https://t.me/AnnieMusicBots">
+  <a href="https://t.me/AMMUBots">
     <img src="https://img.shields.io/badge/Updates_Channel-Telegram-6A5ACD?style=for-the-badge&logo=telegram&logoColor=white" />
   </a>
   <a href="https://t.me/RAJOWNERX1">

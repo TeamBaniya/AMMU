@@ -1,5 +1,5 @@
-from ANNIEMUSIC import app
-from ANNIEMUSIC.utils.database import get_cmode
+from AMMU import app
+from AMMU.utils.database import get_cmode
 
 
 async def get_channeplayCB(_, command, CallbackQuery):

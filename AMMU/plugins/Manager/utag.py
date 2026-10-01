@@ -4,8 +4,8 @@ from pyrogram.enums import ChatMemberStatus
 from pyrogram.errors import UserNotParticipant, FloodWait
 from pyrogram.types import Message
 
-from ANNIEMUSIC import app
-from ANNIEMUSIC.utils.admin_filters import admin_filter
+from AMMU import app
+from AMMU.utils.admin_filters import admin_filter
 
 spam_chats = set()
 

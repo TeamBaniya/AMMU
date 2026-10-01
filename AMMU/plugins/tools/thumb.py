@@ -7,8 +7,8 @@ from pyrogram.types import (
 )
 from pyrogram.enums import ChatMemberStatus
 
-from ANNIEMUSIC import app
-from ANNIEMUSIC.core.mongo import mongodb
+from AMMU import app
+from AMMU.core.mongo import mongodb
 
 thumbdb = mongodb.thumbnail_settings
 

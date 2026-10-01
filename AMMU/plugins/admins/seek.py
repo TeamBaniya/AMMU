@@ -1,11 +1,11 @@
 from pyrogram import filters
 from pyrogram.types import Message
 
-from ANNIEMUSIC import YouTube, app
-from ANNIEMUSIC.core.call import RAJ
-from ANNIEMUSIC.misc import db
-from ANNIEMUSIC.utils import AdminRightsCheck, seconds_to_min
-from ANNIEMUSIC.utils.inline import close_markup
+from AMMU import YouTube, app
+from AMMU.core.call import RAJ
+from AMMU.misc import db
+from AMMU.utils import AdminRightsCheck, seconds_to_min
+from AMMU.utils.inline import close_markup
 from config import BANNED_USERS
 
 

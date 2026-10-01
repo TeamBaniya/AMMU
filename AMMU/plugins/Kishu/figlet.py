@@ -2,7 +2,7 @@ import pyfiglet
 from random import choice
 from pyrogram import filters
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, CallbackQuery
-from ANNIEMUSIC import app
+from AMMU import app
 
 import base64
 

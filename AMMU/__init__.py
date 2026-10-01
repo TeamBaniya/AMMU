@@ -1,8 +1,8 @@
-from ANNIEMUSIC.core.bot import RAJ
-from ANNIEMUSIC.core.dir import dirr
-from ANNIEMUSIC.core.git import git
-from ANNIEMUSIC.core.userbot import Userbot
-from ANNIEMUSIC.misc import dbb, heroku
+from AMMU.core.bot import RAJ
+from AMMU.core.dir import dirr
+from AMMU.core.git import git
+from AMMU.core.userbot import Userbot
+from AMMU.misc import dbb, heroku
 
 from .logging import LOGGER
 

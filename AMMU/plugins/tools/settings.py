@@ -1,9 +1,9 @@
 from pyrogram import filters
 from pyrogram.types import CallbackQuery, InlineKeyboardMarkup, InlineKeyboardButton
 from pyrogram.enums import ChatMemberStatus
-from ANNIEMUSIC import app
-from ANNIEMUSIC.core.mongo import mongodb
-from ANNIEMUSIC.misc import db as music_db
+from AMMU import app
+from AMMU.core.mongo import mongodb
+from AMMU.misc import db as music_db
 import asyncio
 
 # ===== DATABASE =====
@@ -108,9 +108,9 @@ async def skip(_, query: CallbackQuery):
             pass
         return
 
-    from ANNIEMUSIC.misc import db
-    from ANNIEMUSIC.core.call import RAJ
-    from ANNIEMUSIC.utils.autoplay import auto_play_next
+    from AMMU.misc import db
+    from AMMU.core.call import RAJ
+    from AMMU.utils.autoplay import auto_play_next
 
     queue = db.get(chat_id)
     autoplay = await get_autoplay(chat_id)

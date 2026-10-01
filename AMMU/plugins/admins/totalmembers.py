@@ -2,8 +2,8 @@ import csv
 from io import StringIO, BytesIO
 from pyrogram import filters
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
-from ANNIEMUSIC import app
-from ANNIEMUSIC.utils.admin_filters import admin_filter
+from AMMU import app
+from AMMU.utils.admin_filters import admin_filter
 
 async def collect_members(chat_id, processing_msg):
     members_list = []

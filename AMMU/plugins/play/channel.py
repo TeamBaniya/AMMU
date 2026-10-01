@@ -2,10 +2,10 @@ from pyrogram import filters
 from pyrogram.enums import ChatMembersFilter, ChatMemberStatus, ChatType
 from pyrogram.types import Message
 
-from ANNIEMUSIC import app
-from ANNIEMUSIC.utils.database import set_cmode
-from ANNIEMUSIC.utils.decorators.admins import AdminActual
-from ANNIEMUSIC.utils.errors import capture_err
+from AMMU import app
+from AMMU.utils.database import set_cmode
+from AMMU.utils.decorators.admins import AdminActual
+from AMMU.utils.errors import capture_err
 
 from config import BANNED_USERS
 
